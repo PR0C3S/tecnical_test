@@ -11,6 +11,11 @@ Se desea tener el control de todos los clientes pertenecientes a la empresa Orio
 - MySQL (para producción) o H2 (para desarrollo)
 - IDE (IntelliJ, VSCode, etc)
 
+### Invitación para pruebas en Postman
+Puedes unirte al equipo de Postman para realizar pruebas del proyecto usando el siguiente enlace:
+```
+https://app.getpostman.com/join-team?invite_code=f5a897e532afd1f7e3d172da81a8e53b3d5114f4a64bf25434fec68f8b96a3e7&target_code=c35addac336e0c518f79581d63c1dc8c
+```
 ### Cómo correr el proyecto
 
 Clona el repositorio
