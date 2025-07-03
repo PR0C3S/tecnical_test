@@ -11,7 +11,6 @@ La solución debe de ser entregada en un repositorio GIT público y realizada en
 - MySQL (para producción) o H2 (para desarrollo)
 - IDE (IntelliJ, VSCode, etc)
 
-
 ### Cómo correr el proyecto
 
 Clona el repositorio
