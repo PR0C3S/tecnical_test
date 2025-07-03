@@ -1,0 +1,33 @@
+# **Proyecto OrionTek - Gestión de Clientes y Direcciones**
+## Desarrollado por: John Peña
+
+### Descripción
+Se desea tener el control de todos los clientes pertenecientes a la empresa OrionTek donde cada cliente puede tener N cantidad de direcciones. Con sus conocimientos de desarrollo se solicita crear una solución informática para este problema.
+La solución debe de ser entregada en un repositorio GIT público y realizada en un tiempo límite de 24 a 48hrs.
+
+### Requisitos
+- Java 21
+- Gradle
+- MySQL (para producción) o H2 (para desarrollo)
+- IDE (IntelliJ, VSCode, etc)
+
+
+### Cómo correr el proyecto
+
+Clona el repositorio
+```
+git clone https://github.com/PR0C3S/tecnical_test.git
+cd tecnical_test
+```
+### Configura la base de datos
+- Para desarrollo usa H2 (memoria, no necesita configuración extra)
+- Para producción usa MySQL y edita src/main/resources/application-prod.properties con tus credenciales.
+
+### Ejecuta con perfil de desarrollo
+```
+./gradlew bootRun --args='--spring.profiles.active=dev'
+```
+### Ejecuta con perfil de producción
+```
+./gradlew bootRun --args='--spring.profiles.active=prod'
+```
